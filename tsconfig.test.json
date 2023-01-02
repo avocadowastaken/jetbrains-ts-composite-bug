@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+        "strict": true,
+        "noEmit": true
+    },
+    "include": [
+        "**/*.spec.*",
+        "**/__tests__/**/*",
+        "**/__mocks__/**/*",
+        "types/test.d.ts"
+    ],
+    "exclude": ["lib"]
+}
